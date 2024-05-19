@@ -10,17 +10,6 @@
 
     <system:Boolean x:Key="ThemeBlurEnabled">False</system:Boolean>
 
-    <Style
-        x:Key="ItemBulletSelectedStyle"
-        BasedOn="{StaticResource BaseBulletStyle}"
-        TargetType="{x:Type Border}">
-        <Setter Property="Width" Value="4" />
-        <Setter Property="Height" Value="42" />
-        <Setter Property="CornerRadius" Value="13" />
-        <Setter Property="Background" Value="#fff" />
-        <Setter Property="Margin" Value="4,0,0,0" />
-    </Style>
-
     <!-- Main query box style including Query text-->
     <Style
         x:Key="QueryBoxStyle"
